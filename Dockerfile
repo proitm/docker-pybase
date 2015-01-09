@@ -4,7 +4,7 @@ MAINTAINER Sergey Parkhomenko <s.y.parkhomenko@gmail.com>
 
 # Set non-interactive shell to prevent issues with additional containers
 # creation on error
-ENV DEBIAN_FRONTEND=noninteractive
+ENV DEBIAN_FRONTEND noninteractive
 
 # Replace sh by bash for source support
 RUN ln -sf /bin/bash /bin/sh
